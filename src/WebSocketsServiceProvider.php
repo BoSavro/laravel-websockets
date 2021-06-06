@@ -157,7 +157,7 @@ class WebSocketsServiceProvider extends ServiceProvider
      * @return void
      */
     protected function registerDashboardRoutes()
-    {
+    {/**/
         Route::group([
             'domain' => config('websockets.dashboard.domain'),
             'prefix' => config('websockets.dashboard.path'),
